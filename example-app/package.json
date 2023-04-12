@@ -1,0 +1,14 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clear:cache": "npm cache clean --force && yarn cache clean --force",
+    "clear:node_mods": "rm -rf node_modules",
+    "clear": "npm run clear:cache && npm run clear:node_mods"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

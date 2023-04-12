@@ -1,0 +1,16 @@
+{
+  "name": "unlocked-verdaccio",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:foltz/unlocked-verdaccio.git",
+  "author": "Michael Foltz <foltz@lxis.net>",
+  "license": "MIT",
+  "scripts": {
+    "clear:cache": "rm -rf ./cache",
+    "online": "node index.js online",
+    "offline": "node index.js offline"
+  },
+  "dependencies": {
+    "verdaccio": "^5.23.2"
+  }
+}
